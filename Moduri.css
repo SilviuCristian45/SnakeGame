@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'title_font'; /*a name to be used later*/
+    src: url('titlu_font.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'content_font'; /*a name to be used later*/
+    src: url('content_font.otf'); /*URL to font*/
+}
+body{
+  background-color: #12181b;
+}
+.col-md-4{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+}
+.titlu{
+    color: #fff;
+    font-family: title_font;
+}
+.container_levele{
+    background-color: #152534;
+    padding: 2em;
+    margin-top: -1.5em;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-family:content_font;
+    border:2px solid #fff;
+    font-family: content_font;
+}
+.clasic , .liber, .noob , .cronometru,.iarna{
+    background-color: #12181b;/* Green */
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border:2px solid #fff;
+    font-family:content_font;
+}
+.lv1,.lv2,.lv3,.lv4,.lv5{
+    text-align: center;
+    color:#fff;
+}
+img{
+    margin-top: 0.5em;
+    border-radius: 6px;
+}
+.ldb1,.ldb2,.ldb3,.ldb4,.ldb5{
+    margin-top: 0.5em;
+    text-align: left;
+}
+.container{
+    margin-top: 2em;
+}
+
+
